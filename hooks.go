@@ -11,7 +11,6 @@ import (
 	"github.com/tomasprotolog/beego/session"
 )
 
-//
 func registerMime() error {
 	for k, v := range mimemaps {
 		mime.AddExtensionType(k, v)
